@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image:url(/images/Dark\ Smoke\ Overlays\ -\ 2.jpg);
+  }
+
+
+.navbar-brand{
+  font-family: 'Quicksand', sans-serif;
+  font-size:medium;
+}
+
+.carousel {
+  max-height: 90vh;
+  width: auto;    
+  
+}
+.carousel-item img {
+  max-height: 90vh;
+ object-fit: contain;
+}
+.nav-item{
+  white-space:nowrap;
+}
+.actu{
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  border-top-style:ridge;
+  border-bottom-style:ridge;
+}
+
+h1{
+ 
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  color: beige;
+  margin: 20px;
+  text-decoration: underline;
+}
+.presentation{
+  display: flex;
+  text-align: center;
+  height: auto;
+  width: 80vh;
+  font-family: 'Quicksand', sans-serif;
+  color: beige;
+  margin: 50px 20px 50px 20px;
+}
+
+@media (min-width:768px) {
+  .office{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: auto;
+    width: 100%;
+    background: lightcoral;
+  }
+  .personnel{
+    display: flex;
+    justify-content: center;
+  }
+  .office img{
+    margin: 10px;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+  
+  .office h4{
+    color: beige;
+    font-size: 10px;
+    text-align: center;
+  }
+  .office h3{
+    color:lightblue;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width:100px) and (max-width:767px){
+
+  .office{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    background: lightcoral;
+  }
+
+  .office img{
+    margin: 10px;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .office h4{
+    color: beige;
+    font-size: 10px;
+    text-align: center;
+  }
+  .office h3{
+    color:lightblue;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.event_1{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  background: lightcoral;
+}
+.event_1 img{
+  margin: 10px;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.event_1 h4{
+  color: beige;
+  font-size: 10px;
+  text-align: center;
+}
+.event_1 h3{
+  color:lightblue;
+  font-size: 20px;
+  text-align: center;
+}
+
+
