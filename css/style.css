@@ -186,7 +186,7 @@ h1{
   justify-content: center;
   flex-wrap: wrap;
   max-height: 80vw;
-  max-width: auto;
+  max-width: 1300px;
   margin: 10px;
 }
 .event_2{
